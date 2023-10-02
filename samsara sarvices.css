@@ -1,0 +1,671 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 150px;
+    height: 83px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.dropdown-menu {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#collapsibleNavbar {
+    width: 100%;
+    color: #4d504a;
+    font-family: Muli, sans-serif;
+    font-size: 11px;
+    line-height: 23px;
+    font-weight: bold;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+#dropdownMenuButton {
+    width: 100%;
+    color: #4d504a;
+    font-family: Muli, sans-serif;
+    font-size: 11px;
+    line-height: 23px;
+    font-weight: bold;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+#dropdown1 {
+    text-transform: capitalize;
+    margin-top: 30%;
+}
+
+.line a {
+    text-decoration: none;
+    color: #4d504a;
+    font-family: Muli, sans-serif;
+    font-size: 11px;
+    line-height: 23px;
+    font-weight: bold;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid #4d504a;
+}
+
+#nav-link-services{
+    border-bottom: 1px solid #4d504a;
+}
+
+#respo-about{
+    padding-right: 2.5%;
+}
+
+
+@media (min-width:0px) and (max-width:1200PX) {
+    .line {
+        display: none;
+    }
+}
+@media (min-width:0px) and (max-width:991PX) {
+#respo-about {
+    padding-right: 101.5%;
+    margin-left: -8px;
+}
+}
+
+#dropdownMenuButton {
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+.main-our-services{
+    margin:0 5% 0 5%;
+    background-image: url(img/our-services-title-img-1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 70%;
+}
+
+.main-our-services h1{
+    padding-top: 15%;
+    color: #ffffff;
+    font-family: "Cormorant Garamond",serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: .9375em;
+    letter-spacing: .2em;
+}
+
+
+
+
+.main0{
+    padding: 50px 0 0 0;
+}
+.main1 {
+    padding: 50px 0 24px 175px;
+}
+
+.main2{
+    padding: 150px 20px 24px 0px;
+}
+.main3{
+    padding: 0 0 24px 90px;
+    margin-top: -150px;
+}
+.main4{
+    padding: 275px 0 0 0;
+}
+.main5 {
+    padding: 50px 0 24px 175px;
+    margin-top: -150px;
+}
+.main6{
+    padding: 150px 20px 24px 0px;
+}
+.main7{
+    padding: 0 0 24px 90px;
+    margin-top: -350px;
+}
+.main8{
+    padding: 275px 0 0 0;
+}
+.main9{
+    padding: 0 0 24px 90px;
+    margin-top: -200px;
+}
+.main10 {
+    padding: 50px 175PX 24px 0;
+    margin-top: -250px;
+}
+.main11 {
+    padding: 50px 0 24px 290px;
+    margin-top: -60px;
+}
+.main12 {
+    padding: 50px 0 24px 0;
+    margin-top: -360px;
+}
+
+
+
+.part-2{
+    width: 90%;
+    height: 90%;
+}
+.part-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.part-3{
+    width: 100%;
+    height: 90%;
+}
+
+.part-3 img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.part-4{
+    width: 76%;
+    height: 90%;
+}
+.part-4 img {
+    width: 100%;
+    height: 100%;
+}
+
+.part-5{
+    width: 102%;
+    height: 90%;
+}
+.part-5 img {
+    width: 100%;
+    height: 100%;
+}
+
+.part-6{
+    width: 90%;
+    height: 90%;
+}
+.part-6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.part-7{
+    width: 100%;
+    height: 90%;
+}
+.part-7 img {
+    width: 100%;
+    height: 100%;
+}
+
+.part-8{
+    width: 76%;
+    height: 90%;
+}
+.part-8 img {
+    width: 100%;
+    height: 100%;
+}
+
+.part-9{
+    width: 102%;
+    height: 90%;
+}
+.part-9 img {
+    width: 100%;
+    height: 100%;
+}
+
+.part-10{
+    width: 90%;
+    height: 90%;
+}
+.part-10 img {
+    width: 100%;
+    height: 100%;
+}
+
+.part-11{
+    width: 102%;
+    height: 90%;
+}
+.part-11 img {
+    width: 100%;
+    height: 100%;
+}
+.part-12{
+    width: 100%;
+    height: 90%;
+}
+.part-12 img {
+    width: 100%;
+    height: 100%;
+}
+
+.part-13{
+    width: 70%;
+    height: 90%;
+}
+.part-13 img {
+    width: 100%;
+    height: 100%;
+}
+
+.part-14{
+    width: 35%;
+    height: 90%;
+}
+.part-14 img {
+    width: 100%;
+    height: 100%;
+}
+
+.part1 h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: .9375em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #72726c;
+}
+
+.part1 p {
+    line-height: 32px;
+    text-transform: none;
+    font-style: italic;
+    color: #72726c;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.part2 h1 {
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 500;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4d504a;
+    margin-top: 2%;
+}
+
+.part2 p {
+    font-family: Cormorant Garamond, serif;
+    color: #4d504a;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5em;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+}
+
+ .part-5:hover{
+    transform: scale(0.97)
+}
+
+.part-4:hover{
+    transform: scale(0.97)
+}
+
+.part-3:hover{
+    transform: scale(0.97)
+}
+
+.part-2:hover{
+    transform: scale(0.97)
+}
+
+.part-6:hover{
+    transform: scale(0.97)
+}
+
+.part-7:hover{
+    transform: scale(0.97)
+}
+
+.part-8:hover{
+    transform: scale(0.97)
+}
+
+.part-9:hover{
+    transform: scale(0.97)
+}
+
+.part-10:hover{
+    transform: scale(0.97)
+}
+
+.part-11:hover{
+    transform: scale(0.97)
+}
+.part-12:hover{
+    transform: scale(0.97)
+}
+
+@media (min-width:320px) and (max-width:768px) {
+
+    .main0{
+        padding: 0;
+        padding-top: 50px;
+    }
+    .main1 {
+        padding: 0;
+        padding-top: 50px;
+
+    }
+
+    .main2{
+        padding: 0;
+        padding-top: 50px;
+    }
+
+    .main3{
+        padding: 0;
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    .main4{
+        padding: 0;
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    .main5{
+        padding: 0;
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    .main6{
+        padding: 0;
+        padding-top: 50px;
+    }
+
+    .main7{
+        padding: 0;
+        margin: 0;
+        padding-top: 50px;
+    }
+    .main8{
+        padding: 0;
+        margin: 0;
+        padding-top: 50px;
+    }
+    .main9{
+        padding: 0;
+        margin: 0;
+        padding-top: 50px;
+    }
+    .main10{
+        padding: 0;
+        margin: 0;
+        padding-top: 50px;
+    }
+    .main12{
+        padding: 0;
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    .part-2{
+        width: 100%;
+        height: 100%;
+    }
+
+    .part-2 img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .part-3 img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .part-4{
+        width: 100%;
+        height: 100%;
+    }
+    .part-4 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .part-5 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .part-6{
+        width: 100%;
+        height: 100%;
+    }
+    .part-6 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .part-7{
+        width: 100%;
+        height: 100%;
+    }
+    .part-7 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .part-8{
+        width: 100%;
+        height: 100%;
+    }
+    .part-8 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .part-9{
+        width: 100%;
+        height: 100%;
+    }
+    .part-9 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .part-10{
+        width: 100%;
+        height: 100%;
+    }
+    .part-10 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .part-11{
+        width: 100%;
+        height: 100%;
+    }
+    .part-11 img {
+        width: 100%;
+        height: 100%;
+    }
+    .part-12{
+        width: 100%;
+        height: 100%;
+    }
+    .part-12 img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+.button {
+    position: relative;
+    background-color: #b9b1a9;
+    border: none;
+    color: #fff!important;;
+    padding: 10PX 100PX;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 11px;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+  }
+  
+  .button:after {
+    content: "";
+    background: #d1c8c0;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+
+  .info-for-blog h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.285714285714286em;
+    letter-spacing: .2em;
+}
+
+.info-for-blog p {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5em;
+    font-style: italic;
+    color: #84847c;
+}
+
+.name-follow {
+    color: #4d504a;
+    text-transform: uppercase;
+    font-family: Cormorant Garamond, serif;
+    font-size: 21px;
+    line-height: 1.5em;
+    letter-spacing: .15em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.icon-follow {
+    text-align: center;
+}
+
+.icon-follow i {
+    padding: 0 5% 0 0;
+    color: #84847c;
+}
+
+.web-follow {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5em;
+    font-style: italic;
+    color: #84847c;
+    text-align: center;
+}
+
+svg {
+    fill: #84847c;
+    height: auto;
+    max-width: 66vmin;
+    transform-origin: center;
+    width: 66%;
+    margin-left: 15%;
+    animation: linear;
+    animation: jadu-bolte 14s infinite;
+}
+
+@keyframes jadu-bolte {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  .foot{
+    margin-top: -5%;
+  }
+
+.foot h1{
+    background-color: #f5f0eb;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5em;
+    font-style: italic;
+    color: #84847c;
+    text-align: center;
+}

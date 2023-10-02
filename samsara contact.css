@@ -1,0 +1,215 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 150px;
+    height: 83px;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: antiquewhite;
+}
+
+.dropdown-menu {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#collapsibleNavbar {
+    width: 100%;
+    color: #4d504a;
+    font-family: Muli, sans-serif;
+    font-size: 11px;
+    line-height: 23px;
+    font-weight: bold;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+#dropdownMenuButton {
+    width: 100%;
+    color: #4d504a;
+    font-family: Muli, sans-serif;
+    font-size: 11px;
+    line-height: 23px;
+    font-weight: bold;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+#dropdown1 {
+    text-transform: capitalize;
+    margin-top: 30%;
+}
+
+.line a {
+    text-decoration: none;
+    color: #4d504a;
+    font-family: Muli, sans-serif;
+    font-size: 11px;
+    line-height: 23px;
+    font-weight: bold;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid #4d504a;
+}
+
+#nav-link-services{
+    border-bottom: 1px solid #4d504a;
+}
+
+#respo-about{
+    padding-right: 2.5%;
+}
+
+
+@media (min-width:0px) and (max-width:1200PX) {
+    .line {
+        display: none;
+    }
+}
+@media (min-width:0px) and (max-width:991PX) {
+#respo-about {
+    padding-right: 101.5%;
+    margin-left: -8px;
+}
+
+}
+
+#dropdownMenuButton {
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+
+.info-for-blog h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.285714285714286em;
+    letter-spacing: .2em;
+}
+
+.info-for-blog p {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5em;
+    font-style: italic;
+    color: #84847c;
+}
+
+
+#formsubmit {
+    padding: 9% 0;
+}
+
+
+
+.all-info-samsara{
+    text-align: center;
+}
+.all-info-samsara h1{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 1.285714285714286em;
+    letter-spacing: .2em;
+}
+
+.all-info-samsara p{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #84847c;
+}
+
+
+.name-follow {
+    color: #4d504a;
+    text-transform: uppercase;
+    font-family: Cormorant Garamond, serif;
+    font-size: 21px;
+    line-height: 1.5em;
+    letter-spacing: .15em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.icon-follow {
+    text-align: center;
+}
+
+.icon-follow i {
+    padding: 0 5% 0 0;
+    color: #84847c;
+}
+
+.web-follow {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5em;
+    font-style: italic;
+    color: #84847c;
+    text-align: center;
+}
+
+svg {
+    fill: #84847c;
+    height: auto;
+    max-width: 66vmin;
+    transform-origin: center;
+    width: 66%;
+    margin-left: 15%;
+    animation: linear;
+    animation: jadu-bolte 14s infinite;
+}
+
+@keyframes jadu-bolte {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  .foot{
+    margin-top: -5%;
+  }
+
+.foot h1{
+    background-color: #f5f0eb;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5em;
+    font-style: italic;
+    color: #84847c;
+    text-align: center;
+}
